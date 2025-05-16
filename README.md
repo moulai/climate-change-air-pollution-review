@@ -21,7 +21,9 @@ The repository is organized as follows:
     -   **`systematic_review/`**: Scripts for the systematic review analyses, including research status statistical analysis and quantified synthesis of mechanisms (e.g., `analyze_research_status.py`, `synthesize_mechanisms.py`).
     -   **`visualization/`**: Scripts dedicated to generating figures presented in the paper (e.g., `plot_figure2.py`, `plot_extended_data_figure1.py`).
     -   **`utils/`**: Utility scripts containing common functions used across the project (e.g., `common_functions.py`).
--   **`notebooks/`**: Jupyter Notebooks for exploratory data analysis or specific figure generation steps (e.g., `figure_generation_exploratory.ipynb`). `figures_all_in_one.ipynb` is a notebook that contains all figure generation steps in one place and will be separated into individual codes placed in the `visualization/` directory.
+-   **`notebooks/`**: Jupyter Notebooks for exploratory data analysis or specific figure generation steps (e.g., `figure_generation_exploratory.ipynb`).
+    -   `figures_all_in_one.ipynb` is a notebook that contains all figure generation steps in one place and will be separated into individual codes placed in the `visualization/` directory.
+    -   `figure_RADI.ipynb` is a notebook that contains the figure generation steps for the RADI analysis and will be format into a script placed in the `visualization/` directory.
 -   **`docs/`**: Additional documentation, such as a link to the published paper (`paper_link.md`).
 -   **`results/`**: Stores the outputs of the analyses.
     -   **`figures/`**: Generated figures from the study (initially placeholders).
